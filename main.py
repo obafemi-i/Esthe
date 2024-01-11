@@ -97,8 +97,8 @@ def parse_product_info(html):
 
 
 def main():
-    for x in range(2, 5):
-        url = f'https://www.esthe.co.uk/shop/{x}/?'
+    for x in range(1, 14):
+        url = f'https://www.esthe.co.uk/shop/page/{x}/?'
 
         main_page = get_html(url)
 
